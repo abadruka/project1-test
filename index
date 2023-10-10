@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Acme Electronics</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Acme Electronics</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="team.html">Our Team</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Welcome to Acme Electronics</h2>
+    <p>We make high quality electronic accessories.</p>
+
+    <h3>Featured Products</h3>
+    <ul>
+      <li>Headphones</li>
+      <li>Chargers</li>
+      <li>Cables</li>
+    </ul>
+
+    <p>Visit our <a href="products.html">products page</a> to see our full lineup.</p>
+    <p>To learn more about our team, go to our <a href="team.html">team page</a>.</p>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Acme Electronics</p>
+  </footer>
+
+</body>
+</html>
