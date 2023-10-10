@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Acme Electronics Team Page</title>
+  
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    
+    header h1 {
+      margin: 0;
+    }
+    
+    section {
+      padding: 20px;
+    }
+    
+    h2 {
+      color: #333;
+    }
+    
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    li img {
+      width: 100px;
+      float: left;
+      margin-right: 10px;
+    }
+    
+    p {
+      line-height: 1.5;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Acme Electronics Team</h1>
+  </header>
+
+  <section>
+    <p>Last updated: <span id="lastUpdated"></span></p>
+
+    <script>
+      document.getElementById("lastUpdated").innerHTML = new Date().toDateString();
+    </script>
+  </section>
+
+  <section>
+    <h2>Leadership</h2>
+
+    <ul>
+      <li>
+        <img src="john-smith.jpg" alt="John Smith">
+        <b>John Smith</b> - CEO
+      </li>
+
+      <li>
+        <img src="jane-doe.jpg" alt="Jane Doe">
+        <i>Jane Doe</i> - President  
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Engineers</h2>
+
+    <ol>
+      <li>
+        <img src="bob-wilson.jpg" alt="Bob Wilson">
+        Bob Wilson
+      </li>
+
+      <!-- other list items -->
+
+    </ol>
+  </section>
+
+  <section>
+    <p>Acme Electronics makes high quality accessories like headphones, chargers, cables and more. <b>Click here to shop</b> our latest products.</p>
+
+    <img src="team.jpg" alt="Acme team photo">
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Acme Electronics</p>
+  </footer>
+
+</body>
+
+</html>
